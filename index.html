@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Diagnóstico de Produtividade Financeira</title>
+	<title>Diagnóstico de Eficiência Financeira</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1">
 	<link rel="stylesheet" type="text/css" href="https://use.typekit.net/thw4ntx.css">
@@ -30,7 +30,9 @@
 					<div class="">
 						<div class="card no-border">
 							<div id="chat" class="conv-form-wrapper">
-								<form action="https://forms.hubspot.com/uploads/form/v2/3453052/126ec73c-2089-4d6b-a02b-dd46cb8f3e81" method="POST" class="hidden">
+								<form
+									action="https://forms.hubspot.com/uploads/form/v2/3453052/126ec73c-2089-4d6b-a02b-dd46cb8f3e81"
+									method="POST" class="hidden">
 									<select data-conv-question="Olá!
 									
 									Meu nome é ZZZ, sou <b>especialista em produtividade</b> do Superlógica e estou aqui para te ajudar a diagnósticar a eficiência financeira do seu negócio!
@@ -42,16 +44,18 @@
 									" name="first-question">
 										<option value="yes">Claro, vamos lá!</option>
 									</select>
-									<input type="text" name="firstname"
+									<input type="text" name="firstname" id="firstname"
 										data-conv-question="Primeiramente, o mais importante: <b>Qual é o seu nome?</b>">
 									<input type="text"
 										data-conv-question="Muito prazer, <b>{firstname}:0</b>! Vou te fazer algumas perguntas e analisá-las. Ao final, te enviarei o diagnóstico completo por e-mail, ok?"
 										data-no-answer="true">
+
+									
 									<input data-conv-question="E por falar nisso, qual é seu e-mail?"
 										data-pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$"
 										id="email" type="email" name="email" required
 										placeholder="Qual é o seu e-mail?">
-									<select 
+									<select
 										data-conv-question="Muito obrigado, {firstname}:0! Agora já estamos prontos para começar. Vamos lá?"
 										name="start">
 										<option value="yes" class="start__button">Começar meu diagnóstico!</option>
@@ -69,7 +73,7 @@
 										data-conv-question="Qual é o valor total da folha de pagamento do seu time financeiro? (Informe apenas números! Exemplo: 10.000.00)"
 										data-pattern="^[0-9]*$" id="qtdFolha" type="text" name="qtdFolha" required
 										placeholder="Qual é o valor total da folha de pagamento do seu time financeiro? (Informe apenas números! Exemplo: 10.000.00)">
-								 
+
 
 
 									<select

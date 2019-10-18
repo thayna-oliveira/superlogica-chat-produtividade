@@ -268,8 +268,10 @@ ConvState.prototype.answerWith = function(answerText, answerObject) {
             eventList : {
                 onSubmitForm : function(convState) {
                     console.log('completed');
-                    convState.form.submit();
-                    alert('diagnistr');
+                    
+                    let valor = $('#firstname').val() ;
+                    //convState.form.submit();
+                    //alert(valor);
                     //return true;
                 },
                 onInputSubmit : function(convState, readyCallback) {
