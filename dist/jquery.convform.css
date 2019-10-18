@@ -253,15 +253,22 @@ div.conv-form-wrapper  div#messages div.message {
     word-wrap: break-word;
 }
 div.conv-form-wrapper  div#messages div.message.to {
-    background: #efefef;
+    background: #ffffff;
     color: #6f6f6f;
     float: left;
     border-top-left-radius: 0;
+    box-shadow: 0px 9px 11px -15px rgba(11,12,16,0.35);
 }
+
+div.conv-form-wrapper  div#messages div.message.to:first-child {
+   margin-top: 5.5rem;
+}
+
 div.conv-form-wrapper div#messages div.message.from {
-    background: #06b79a;
+    background: linear-gradient(45deg, #FF5720 0%, #FF7070 100%);
     color: #fff;
     border-top-right-radius: 0;
+    box-shadow: 0px 9px 11px -15px rgba(11,12,16,0.35);
 }
 .message.to+.message.from, .message.from+.message.to {
     margin-top: 15px;

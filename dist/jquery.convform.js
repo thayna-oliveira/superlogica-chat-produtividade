@@ -269,7 +269,8 @@ ConvState.prototype.answerWith = function(answerText, answerObject) {
                 onSubmitForm : function(convState) {
                     console.log('completed');
                     convState.form.submit();
-                    return true;
+                    alert('diagnistr');
+                    //return true;
                 },
                 onInputSubmit : function(convState, readyCallback) {
                     if(convState.current.input.hasOwnProperty('callback')) {
